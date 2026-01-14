@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JARVIS</title>
+  <link rel="stylesheet" href="/frontend/style.css">
+</head>
+<body>
+
+<div class="jarvis-container">
+  <div class="header">
+    <h1>JARVIS</h1>
+    <span id="status">IDLE</span>
+  </div>
+
+  <div id="chat" class="chat-box"></div>
+
+  <div class="input-area">
+    <button onclick="startListening()">🎙</button>
+    <input id="input" placeholder="Type or speak..." />
+    <button onclick="send()">SEND</button>
+  </div>
+</div>
+
+<script src="/frontend/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: radial-gradient(circle, #0a0f1c, #000);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00eaff;
+}
+
+.jarvis-container {
+  width: 420px;
+  height: 600px;
+  background: rgba(10, 20, 40, 0.95);
+  border: 1px solid #00eaff55;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #00eaff33;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+}
+
+.msg {
+  padding: 12px 14px;
+  border-radius: 12px;
+  max-width: 85%;
+}
+
+.user {
+  align-self: flex-end;
+  background: #00eaff33;
+  color: white;
+}
+
+.jarvis {
+  align-self: flex-start;
+  background: #001e2b;
+  border: 1px solid #00eaff55;
+}
+
+.input-area {
+  display: flex;
+  border-top: 1px solid #00eaff33;
+}
+
+input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 14px;
+  color: #00eaff;
+  outline: none;
+}
+
+button {
+  background: #00eaff;
+  border: none;
+  padding: 0 18px;
+  cursor: pointer;
+}
